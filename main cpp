@@ -1,0 +1,9 @@
+#include <QApplication>
+#include "PixelPlayer.h"
+
+int main(int argc, char *argv[]) {
+    QApplication app(argc, argv);
+    PixelPlayer player;
+    player.show();
+    return app.exec();
+}
